@@ -4,7 +4,7 @@ const User = props => {
   console.log(props);
   return (
     <div className="userDiv">
-      <h1>My Github Account</h1>
+      <h1>My Account</h1>
 
       <img
         className="user-img"
@@ -15,6 +15,8 @@ const User = props => {
       <h2>{props.users.login}</h2>
 
       <h3>{props.users.bio}</h3>
+      <h3>Followers: {props.users.followers}</h3>
+      <h3>Following: {props.users.following}</h3>
     </div>
   );
 };

@@ -28,16 +28,18 @@
 .follower-components {
   display: flex;
   flex-wrap: wrap;
-  border: 2px solid red;
+  justify-content: space-around;
 }
 .followtitle {
   width: 100%;
+  text-align: center;
 }
 
 /* user */
 .userDiv {
-  border: 2px solid red;
   width: 20%;
+  border-right: 3px solid black;
+  padding: 10px;
 }
 .user-img {
   width: 100%;
@@ -45,9 +47,15 @@
 
 /* follower */
 .follower-img {
-  width: 30%;
+  width: 80%;
+  margin-left: 35px;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 .followerDiv {
-  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1%;
+  margin-bottom: 3%;
   width: 20%;
 }
